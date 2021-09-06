@@ -1,0 +1,1 @@
+ln -s ~/bits/killgpu /usr/local/bin/killgpu
