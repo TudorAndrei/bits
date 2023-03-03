@@ -1,0 +1,6 @@
+#!/bin/sh
+old="$IFS"
+IFS=','
+str="'$*'"
+IFS=$old
+curl 'https://www.toptal.com/developers/gitignore/api/' --output .gitignore
